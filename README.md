@@ -21,8 +21,8 @@
 
 ### 1. Clone Repository
 
-```bash
-git clone https://github.com/Tongyi-MAI/Z-Image.git
+bash
+```git clone https://github.com/Tongyi-MAI/Z-Image.git
 cd Z-Image```
 
 ---
