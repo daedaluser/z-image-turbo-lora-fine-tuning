@@ -8,16 +8,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Quick Start](#quick-start)
-- [Project Structure](#project-structure)
-- [Workflow](#workflow)
-- [Requirements](#requirements)
-
----
-
 ## ✨ Features
 
 - **High-Speed Generation**: Optimized inference pipeline for Z-Image-Turbo
@@ -41,3 +31,4 @@ cd Z-Image
 - ├── src/
 - │   ├── zimage-lora.ipynb      # LoRA fine-tuning notebook
 - │   └── infer_lora.ipynb       # LoRA inference notebook
+- ├── ...
