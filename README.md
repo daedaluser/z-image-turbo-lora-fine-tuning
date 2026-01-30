@@ -34,3 +34,10 @@
 ```bash
 git clone https://github.com/Tongyi-MAI/Z-Image.git
 cd Z-Image
+
+### 2. File Structure
+
+- Z-Image/
+- ├── src/
+- │   ├── zimage-lora.ipynb      # LoRA fine-tuning notebook
+- │   └── infer_lora.ipynb       # LoRA inference notebook
