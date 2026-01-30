@@ -23,7 +23,7 @@
 
 ```bash
 git clone https://github.com/Tongyi-MAI/Z-Image.git
-cd Z-Image\
+cd Z-Image```
 
 ---
 
