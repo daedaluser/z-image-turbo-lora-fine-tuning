@@ -1,25 +1,36 @@
-Z-Image-Turbo Training & Inference Toolkit
-A comprehensive toolkit for LoRA fine-tuning and inference with Z-Image-Turbo - a high-speed image generation model.
-Quick Start
-1. Clone Repository
-git clone https://github.com/[username]/z-image-turbo.git
-cd z-image-turbo
-2. Setup Environment
-# Install dependencies
-pip install -r requirements.txt
+# Z-Image-Turbo Training & Inference Toolkit
 
-# Or use conda
-conda env create -f environment.yml
-conda activate z-image-turbo
-3. File Structure Setup
-Download the training and inference notebooks from this repository and place them in the following structure:
-Z-image/
-├── src/
-│   ├── zimage-lora.ipynb      # LoRA fine-tuning notebook
-│   └── infer_lora.ipynb        # LoRA inference notebook
-├── ...
-3. Workflow:
-Prepare your dataset (images in data/train/)
-Configure hyperparameters (rank, learning rate, epochs)
-Run all cells to start training
-Find checkpoints in outputs/lora/
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+> A comprehensive toolkit for LoRA fine-tuning and inference with Z-Image-Turbo - a high-speed image generation model.
+
+---
+
+## 📋 Table of Contents
+
+- [Features](#features)
+- [Quick Start](#quick-start)
+- [Project Structure](#project-structure)
+- [Workflow](#workflow)
+- [Requirements](#requirements)
+
+---
+
+## ✨ Features
+
+- **High-Speed Generation**: Optimized inference pipeline for Z-Image-Turbo
+- **LoRA Fine-tuning**: Easy-to-use LoRA training scripts with customizable hyperparameters
+- **Jupyter Integration**: Interactive notebooks for both training and inference
+- **Flexible Configuration**: Support for various rank sizes, learning rates, and training epochs
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/Tongyi-MAI/Z-Image.git
+cd Z-Image
