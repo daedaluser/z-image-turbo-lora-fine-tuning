@@ -25,6 +25,8 @@
 git clone https://github.com/Tongyi-MAI/Z-Image.git
 cd Z-Image
 
+---
+
 ### 2. File Structure
 
 - Z-Image/
